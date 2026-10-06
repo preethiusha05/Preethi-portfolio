@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Preethi Usha M M | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="bg-blur blur1"></div>
+  <div class="bg-blur blur2"></div>
+  <div class="bg-blur blur3"></div>
+
+  <header class="header">
+    <div class="logo">Preethi<span>.</span></div>
+    <nav class="nav" id="navMenu">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="menu-toggle" id="menuToggle">☰</div>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="hero-text slide-left reveal">
+      <p class="tag">AI • Data Science • Software Development</p>
+      <h1>Hi, I'm <span>Preethi Usha M M</span></h1>
+      <h2><span id="typing"></span></h2>
+      <p class="hero-desc">
+        AI and Data Science graduate skilled in Python, Machine Learning, NLP, FastAPI,
+        Computer Vision and backend development. I build intelligent, scalable, real-world solutions.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#projects" class="btn primary">View Projects</a>
+        <a href="#contact" class="btn secondary">Contact Me</a>
+      </div>
+
+      <div class="hero-links">
+
+        <a href="mailto:preethiushamm@gmail.com">Email</a>
+        <a href="https://www.linkedin.com/in/preethi-usha-m-m-b7622a27a/" target="_blank">LinkedIn</a>
+        <a href="https://github.com/preethiusha05" target="_blank">GitHub</a>
+        <a href="http://www.skillrack.com/profile/476414/15c9c65544809d9e16cc27bba42fcceafa806106" target="_blank">SkillRack</a>
+      </div>
+    </div>
+
+    <div class="hero-image slide-right reveal">
+      <div class="image-card">
+        <img src="profile.png" alt="Preethi Usha M M" />
+        <div class="image-glow"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about section reveal" id="about">
+    <div class="section-title">
+      <span>About Me</span>
+      <h2>Interactive Profile</h2>
+    </div>
+    <div class="about-card glass">
+      <p>
+        I am an AI and Data Science student passionate about building production-ready AI applications.
+        My experience spans backend development with FastAPI, computer vision systems, NLP applications,
+        dashboarding, and recommendation engines. I enjoy transforming ideas into scalable, impactful solutions.
+      </p>
+      <div class="about-grid">
+        <div class="mini-card">
+          <h3>Education</h3>
+          <p><strong>KLN College of Engineering</strong><br>B.Tech AI & Data Science<br>2022 – 2026<br>CGPA: 8.17</p>
+        </div>
+        <div class="mini-card">
+          <h3>Focus</h3>
+          <p>Machine Learning, Computer Vision, NLP, API Development, Data Analytics, AI Deployment</p>
+        </div>
+        <div class="mini-card">
+          <h3>Strength</h3>
+          <p>Building real-world, efficient and modern AI products with strong backend logic</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="skills section" id="skills">
+    <div class="section-title reveal">
+      <span>My Stack</span>
+      <h2>Skills Shuffle</h2>
+    </div>
+
+    <div class="shuffle-controls reveal">
+      <button id="shuffleBtn" class="btn primary small-btn">Shuffle Skills</button>
+    </div>
+
+    <div class="skills-grid" id="skillsGrid">
+      <div class="skill-card glass">Python</div>
+      <div class="skill-card glass">SQL</div>
+      <div class="skill-card glass">HTML</div>
+      <div class="skill-card glass">CSS</div>
+      <div class="skill-card glass">JavaScript</div>
+      <div class="skill-card glass">React.js</div>
+      <div class="skill-card glass">Node.js</div>
+      <div class="skill-card glass">FastAPI</div>
+      <div class="skill-card glass">MySQL</div>
+      <div class="skill-card glass">PostgreSQL</div>
+      <div class="skill-card glass">OpenCV</div>
+      <div class="skill-card glass">YOLOv8</div>
+      <div class="skill-card glass">OCR</div>
+      <div class="skill-card glass">Power BI</div>
+      <div class="skill-card glass">Tableau</div>
+      <div class="skill-card glass">Pandas</div>
+      <div class="skill-card glass">NumPy</div>
+      <div class="skill-card glass">Matplotlib</div>
+      <div class="skill-card glass">Machine Learning</div>
+      <div class="skill-card glass">Deep Learning</div>
+      <div class="skill-card glass">NLP</div>
+      <div class="skill-card glass">Hugging Face</div>
+      <div class="skill-card glass">Streamlit</div>
+      <div class="skill-card glass">ONNX Runtime</div>
+      <div class="skill-card glass">GitHub</div>
+      <div class="skill-card glass">MATLAB</div>
+    </div>
+  </section>
+
+  <section class="experience section" id="experience">
+    <div class="section-title reveal">
+      <span>Experience</span>
+      <h2>Where I Worked</h2>
+    </div>
+
+    <div class="timeline">
+      <div class="timeline-item reveal slide-left">
+        <div class="timeline-content glass">
+          <h3>Software Developer Intern</h3>
+          <h4>Haso Technology</h4>
+          <span>Jun 2026 – Sep 2026</span>
+          <p>
+            Developed and maintained FastAPI backend for an AI-powered pet health analysis platform.
+            Built REST APIs, integrated ONNX Runtime models, OCR-based food recognition,
+            wellness scoring, calorie and hydration logic.
+          </p>
+        </div>
+      </div>
+
+      <div class="timeline-item reveal slide-right">
+        <div class="timeline-content glass">
+          <h3>Data Scientist Intern</h3>
+          <h4>Sourcesys Technologies Pvt Ltd</h4>
+          <span>Jan 2026 – May 2026</span>
+          <p>
+            Built ML models, performed EDA using Python and Pandas, created Power BI and Tableau dashboards,
+            and developed an NLP chatbot using Hugging Face and Streamlit.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="projects section" id="projects">
+    <div class="section-title reveal">
+      <span>Featured Work</span>
+      <h2>Projects</h2>
+    </div>
+
+    <div class="projects-grid">
+      <div class="project-card glass reveal">
+        <h3>RoadGuard AI</h3>
+        <p class="project-tech">Python • YOLOv8 • OpenCV • FastAPI • Firebase • Groq API</p>
+        <p>
+          Automated road damage severity detection and traffic-aware repair priority system.
+          Achieved 65.3% mAP50 and built fast detection endpoints under 340ms.
+        </p>
+        <button class="toggle-details">View More</button>
+        <div class="project-details">
+          <ul>
+            <li>Trained YOLOv8 nano on RDD2022 India dataset</li>
+            <li>Built weighted repair priority logic</li>
+            <li>Integrated map, forecasting, chatbot, and backend modules</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="project-card glass reveal">
+        <h3>Movie Recommendation System</h3>
+        <p class="project-tech">Python • Scikit-learn • NLP • FAISS • Streamlit</p>
+        <p>
+          Hybrid recommendation engine using collaborative filtering and content-based methods
+          with semantic embeddings and FAISS search.
+        </p>
+        <button class="toggle-details">View More</button>
+        <div class="project-details">
+          <ul>
+            <li>Used KNN, SVD, NMF models</li>
+            <li>Integrated sentence embeddings for semantic similarity</li>
+            <li>Deployed a real-time recommendation app</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="project-card glass reveal">
+        <h3>AI-Powered Exploratory Data Analysis</h3>
+        <p class="project-tech">Python • Pandas • Groq API • Gemini API</p>
+        <p>
+          LLM-powered EDA system that automates summaries, missing value detection,
+          and outlier identification using structured prompt engineering.
+        </p>
+        <button class="toggle-details">View More</button>
+        <div class="project-details">
+          <ul>
+            <li>Built prompt-driven analysis workflow</li>
+            <li>Generated automated data insights</li>
+            <li>Improved analytics efficiency with AI summarization</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="certifications section" id="certifications">
+    <div class="section-title reveal">
+      <span>Recognition</span>
+      <h2>Certifications & Achievement</h2>
+    </div>
+
+    <div class="cert-grid">
+      <div class="cert-card glass reveal">Artificial Intelligence Primer – Infosys Springboard</div>
+      <div class="cert-card glass reveal">Deloitte Data Analytics Simulation – Forage</div>
+      <div class="cert-card glass reveal">PwC Power BI Simulation – Forage</div>
+      <div class="cert-card glass reveal">Python Project Certification – Coursera</div>
+      <div class="cert-card glass reveal">IBM Python 101 for Data Science</div>
+      <div class="cert-card glass reveal highlight">1st Place – Data Analytics Hackathon, NIT Trichy</div>
+    </div>
+  </section>
+
+  <section class="contact section reveal" id="contact">
+    <div class="section-title">
+      <span>Let's Connect</span>
+      <h2>Contact Me</h2>
+    </div>
+
+    <div class="contact-card glass">
+      <p><strong>Phone:</strong> +91 88380 61782</p>
+      <p><strong>Email:</strong> preethiushamm@gmail.com</p>
+      <p><strong>LinkedIn:</strong> linkedin.com/in/preethi-usha-m-m</p>
+      <p><strong>GitHub:</strong> github.com/preethiusha05</p>
+      <p><strong>SkillRack:</strong> skillrack.com/preethi</p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© 2026 Preethi Usha M M | Designed with HTML, CSS & JavaScript</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
